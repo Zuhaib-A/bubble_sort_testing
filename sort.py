@@ -1,6 +1,6 @@
-##Bubble sorting program
+#Bubble sorting script
 bub_sort=[]
-##Generating list
+#Generating list
 length=int(input("How many numbers do you wish to bubble sort?\n"))
 to_zero=0
 while to_zero != length:
@@ -11,7 +11,7 @@ while to_zero != length:
     to_zero=to_zero+1
     number=int(input("Enter: "))
     bub_sort.append(number)
-#Bubble sorting
+#Bubble sorting the list
 print(" ")
 for i in range(len(bub_sort)-1):
     for j in range(len(bub_sort)-1):
